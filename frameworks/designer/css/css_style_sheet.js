@@ -38,7 +38,7 @@ SC.CSSStyleSheet = SC.Object.extend(
     
     // create rules array
     var rules = ss.rules || SC.EMPTY_ARRAY ;
-    var array = SC.SparseArray.create(rules.length) ;
+    var array = SC.SparseArray.array(rules.length) ;
     array.delegate = this ;
     this.rules = array ;
     
