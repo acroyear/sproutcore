@@ -294,7 +294,7 @@ SC.Array = {
 
   /**
     Generates a new array with the contents of the old array, sans the passed
-    value.
+    value.  If that value does not exist in the array, the original array is returned.
 
     @param {Object} value
     @returns {Array}
